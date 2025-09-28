@@ -14,7 +14,7 @@
 	}
 </script>
 
-<span class="text-4xl">Lists: </span>
+<span class="text-4xl">View Bills: </span>
 
 {#each $Lists as list, i}
 	<div class="flex h-fit w-full flex-col rounded border-2 border-gray-400 p-1">
