@@ -37,7 +37,7 @@
 	});
 </script>
 
-<div class="w-100 flex h-full flex-col gap-4 bg-white p-2">
+<div class="aspect-9/19 flex h-full flex-col gap-4 bg-white p-2">
 	<Nav />
 
 	<div class="flex h-full flex-col gap-2 overflow-y-auto">
