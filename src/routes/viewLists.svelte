@@ -5,7 +5,7 @@
 		let total = 0;
 
 		for (let item of items) {
-			let discount = item.costPerItem * item.Quantity * (item.discoutPercent / 100);
+			let discount = item.costPerItem * item.Quantity * (item.discountPercent / 100);
 			let finalCost = item.costPerItem * item.Quantity - discount;
 			total += finalCost;
 		}
@@ -38,7 +38,14 @@
 				lists.push({
 					name: 'New Bill',
 					dateCreated: new Date().toLocaleDateString(),
-					items: []
+					items: [
+						{
+							name: 'New Item',
+							costPerItem: 0,
+							Quantity: 0,
+							discountPercent: 0
+						}
+					]
 				});
 				return lists;
 			});

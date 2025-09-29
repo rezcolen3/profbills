@@ -10,13 +10,13 @@ export var Lists = writable([
                 name: "Bananas",
                 costPerItem: 10,
                 Quantity: 12,
-                discoutPercent: 10
+                discountPercent: 10
             },
             {
                 name: "Milk",
                 costPerItem: 60,
                 Quantity: 2,
-                discoutPercent: 30
+                discountPercent: 30
             },
         ]
 	}
