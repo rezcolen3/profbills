@@ -6,5 +6,5 @@
 }
 
 .bitfont {
-	@apply font-["Jersey_10"] !important;
+	@apply font-["Jersey_10"];
 }
